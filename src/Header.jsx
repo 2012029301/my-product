@@ -5,13 +5,9 @@ import { loginMetamask } from "./server/server";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { addressType } from "./store/store.js";
 const Header = function () {
-  let provider = window.ethereum;
   const [address, setAddress] = useRecoilState(addressType);
   const add = useRecoilValue(addressType);
-  useEffect(() => {
-    setAddress();
-    console.log(111);
-  }, []);
+  useEffect(() => {}, []);
   setTimeout(() => {
     console.log(address, add);
   }, 100);

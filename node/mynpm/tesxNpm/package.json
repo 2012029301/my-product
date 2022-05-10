@@ -1,0 +1,9 @@
+{
+    "name": "ljtest",
+    "version": "1.0.0",
+    "description": "提示这个包是干啥的",
+    "main": "lib/index.js",
+    "keywords": ["lj","test","lj-test"],
+    "license": "ISC"
+  }
+  
