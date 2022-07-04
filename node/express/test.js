@@ -1,6 +1,7 @@
 const express = require("express");
 // 创建web服务器
 const app = express();
+
 app.get("/user", (req, res) => {
   res.send({ name: "李军", age: "25" });
   console.log(req.query);

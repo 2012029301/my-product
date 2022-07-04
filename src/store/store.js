@@ -4,3 +4,7 @@ export const addressType = atom({
   key: "addressType",
   default: loginMetamask(),
 });
+export const getBalance = atom({
+  key: "getBalance",
+  default: async () => {},
+});

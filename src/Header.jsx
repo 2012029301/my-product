@@ -9,13 +9,15 @@ const Header = function () {
   const add = useRecoilValue(addressType);
   useEffect(() => {}, []);
   setTimeout(() => {
-    console.log(address, add);
+    console.log(address, "111", add);
   }, 100);
   return (
     <div className="header">
       <section className="left">
         <Link to="/">Home</Link>
         <Link to="/product">product</Link>
+        <Link to="/near">near</Link>
+        <Link to="/test-ts">test ts</Link>
       </section>
       <section className="right">
         <div></div>
